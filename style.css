@@ -46,14 +46,14 @@
 
 .content .price {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .content input {
   margin-top: 2rem;
   border: 0.5px solid #271a45;
   border-radius: 999px;
-  padding: 8px 16px;
+  padding: 0.8rem 1.6rem;
   background: transparent;
 
   font-weight: 400;
