@@ -20,11 +20,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1.3rem;
 }
 
 .content .img {
+  position: relative;
   width: 44.9rem;
   height: auto;
+}
+
+.content .img__button {
+  position: absolute;
+  top: 1rem;
+  right: 5rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.content .img__button #toggleButton {
+  border: none;
+  background-color: transparent;
 }
 
 .content .img img {
